@@ -1,0 +1,70 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+#bground > img{
+    height: 100px;
+    width: 600px;
+    margin-left: -30px;
+    
+}
+div{
+    text-align: center;
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li:hover, ul:hover dd   {
+    background-color: rgb(34,177,76);
+    border-radius: 5px;
+}
+#nav ul li:hover ul{
+    display: block;
+}
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: rgb(44,200,86);
+    border-radius: 5px;
+}
+#nav ul ul li{
+    display: block;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.dd img{
+    vertical-align: middle;
+    padding-left: 10px;
+    height:10px;
+    width:10px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+}
+#social{
+    margin-left: 85em;
+}

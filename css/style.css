@@ -61,10 +61,23 @@ img{
     height:10px;
     width:10px;
 }
-.footer{
-    position: absolute;
+#footer{
+    position: relative;
     bottom: 0;
 }
-#social{
-    margin-left: 85em;
+#social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}    
+#rights{
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    text-align: center;
+}
+.icon img{
+    float: right;
+    padding-left: 5px;
+    margin-bottom: 5px;
 }

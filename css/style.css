@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Arial;
-    font-size: 17px;
+    font-size: 14px;
 }
 #bground > img{
     height: 100px;
@@ -14,7 +14,7 @@ div{
     text-align: center;
     margin-top: 10px;
 }
-ul {
+#nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -22,12 +22,13 @@ ul {
     background-color: #f0f0f0;
 }
 
-li {
+#nav li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 0;
 }
 
-li a {
+#nav li a {
     display: block;
     color: black;
     text-align: center;
@@ -35,12 +36,17 @@ li a {
     text-decoration: none;
 }
 
-li:hover, ul:hover dd   {
+li:hover:not(.active), ul:hover dd   {
     background-color: rgb(34,177,76);
+    border-radius: 5px;
+}
+.active{
+	background-color: rgb(34,177,76);
     border-radius: 5px;
 }
 #nav ul li:hover ul{
     display: block;
+	z-index: 1000;
 }
 #nav ul ul{
     display: none;
@@ -80,4 +86,30 @@ img{
     float: right;
     padding-left: 5px;
     margin-bottom: 5px;
+}
+iframe {
+    float: RIGHT;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border: 6px solid rgb(34,177,76);
+    padding: 5px;
+}
+.contact {
+    display: inline-block;
+    margin-top: 50px;
+}
+.contact_pic img{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+}	
+.contact_pic{
+	margin-left: 50px;
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	border: 8px solid rgb(34,177,76);
+}
+span{
+    font-weight:bold;
 }

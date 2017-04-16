@@ -20,6 +20,7 @@ div{
     padding: 0;
     overflow: hidden;
     background-color: #f0f0f0;
+   
 }
 
 #nav li {
@@ -87,7 +88,7 @@ img{
     padding-left: 5px;
     margin-bottom: 5px;
 }
-iframe {
+.location {
     float: RIGHT;
     margin-right: 100px;
     margin-bottom: 50px;
@@ -112,4 +113,17 @@ iframe {
 }
 span{
     font-weight:bold;
+}
+.calendar{
+	text-align:center;
+}
+#location{
+	float: RIGHT;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    border: 6px solid rgb(34,177,76);
+    padding: 5px;
+}	
+.view-cap, .view-container-border {
+    background-color: #FFFFFF;
 }

@@ -100,15 +100,15 @@ img{
     margin-top: 50px;
 }
 .contact_pic img{
-	height: 200px;
-	width: 200px;
-	border-radius: 100%;
+	height: 340px;
+	width: 600px;
+	
 }	
 .contact_pic{
 	margin-left: 50px;
-	height: 200px;
-	width: 200px;
-	border-radius: 100%;
+	height: 340px;
+	width: 600px;
+	margin-bottom: 100px;
 	border: 8px solid rgb(34,177,76);
 }
 span{

@@ -24,3 +24,27 @@ li{
 .com{
 	display: inline-block;
 }
+
+.container{
+	width: 100%;
+	overflow: hidden;
+	margin-left:-50px;
+}
+.left{
+	float: left;
+    width: 40%;
+    text-align: right;
+}
+.right{
+	width: 60%;
+    float: right;
+    position: relative;
+}
+.right p{
+	font-size: 20px;
+	font-family: cursive;
+}
+.left img{
+	border: 8px solid rgb(34,177,76);
+	border-radius: 10px;
+}

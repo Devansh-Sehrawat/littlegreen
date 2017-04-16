@@ -58,7 +58,7 @@ div{
 #nav ul ul li{
     display: block;
 }
-img{
+li img{
     height: 50px;
     width: 50px;
 }
@@ -87,6 +87,7 @@ img{
     float: right;
     padding-left: 5px;
     margin-bottom: 5px;
+    height: 50px;
 }
 .location {
     float: RIGHT;
